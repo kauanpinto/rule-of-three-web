@@ -1,9 +1,13 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import { RouterProvider } from 'react-router';
+import { Toaster } from 'sonner';
+import { router } from '@/routes';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1 className="text-center text-lg">Rule of Three</h1>
+    <RouterProvider router={router} />
+    <Toaster theme="dark" position="top-center" richColors />
   </StrictMode>,
 );

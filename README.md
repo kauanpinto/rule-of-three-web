@@ -31,6 +31,7 @@ A aplicação organiza os gastos do usuário de acordo com sua renda, distribuin
 - [Vite](https://vite.dev/) ^8.3.0
 - [TypeScript](https://www.typescriptlang.org/) ~6.0.2
 - [Tailwind CSS](https://tailwindcss.com/) ^4.3.3
+- [Sonner](https://sonner.emilkowal.ski/) ^2.0.8
 - [Vitest](https://vitest.dev/) ^5.0.3
 - [Testing Library](https://testing-library.com/react) ^16.3.3
 
