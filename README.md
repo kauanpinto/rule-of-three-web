@@ -21,9 +21,10 @@ A aplicação organiza os gastos do usuário de acordo com sua renda, distribuin
 1. [Tecnologias](#tecnologias)
 2. [Requisitos](#requisitos)
 3. [Como executar](#como-executar)
-4. [Scripts](#scripts)
-5. [Testes](#testes)
-6. [Autor](#autor)
+4. [Variáveis de ambiente](#variaveis-de-ambiente)
+5. [Scripts](#scripts)
+6. [Testes](#testes)
+7. [Autor](#autor)
 
 ## Tecnologias
 
@@ -55,13 +56,27 @@ cd rule-of-three-web
 npm install
 ```
 
-3. Execute o projeto:
+3. Configure as variáveis de ambiente:
+
+```bash
+cp .env.example .env
+```
+
+4. Execute o projeto:
 
 ```bash
 npm run dev
 ```
 
 A aplicação estará disponível em: `http://localhost:5173`
+
+<a id="variaveis-de-ambiente"></a>
+
+## Variáveis de ambiente
+
+| Variável | Descrição |
+|---|---|
+| `VITE_API_URL` | URL do seu backend |
 
 ## Scripts
 
