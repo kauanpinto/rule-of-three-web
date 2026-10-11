@@ -64,6 +64,8 @@ A aplicação estará disponível em: `http://localhost:5173`
 |---|---|
 | `npm run dev` | Inicia o servidor de desenvolvimento |
 | `npm run build` | Gera o build de produção |
+| `npm run format` | Formata o código |
+| `npm run format:check` | Verifica se o código está formatado |
 | `npm run lint` | Verifica problemas no código |
 
 ## Autor
