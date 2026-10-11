@@ -22,13 +22,17 @@ A aplicação organiza os gastos do usuário de acordo com sua renda, distribuin
 2. [Requisitos](#requisitos)
 3. [Como executar](#como-executar)
 4. [Scripts](#scripts)
-5. [Autor](#autor)
+5. [Testes](#testes)
+6. [Autor](#autor)
 
 ## Tecnologias
 
 - [React](https://react.dev/) ^19.2.8
 - [Vite](https://vite.dev/) ^8.3.0
 - [TypeScript](https://www.typescriptlang.org/) ~6.0.2
+- [Tailwind CSS](https://tailwindcss.com/) ^4.3.3
+- [Vitest](https://vitest.dev/) ^5.0.3
+- [Testing Library](https://testing-library.com/react) ^16.3.3
 
 ## Requisitos
 
@@ -67,6 +71,17 @@ A aplicação estará disponível em: `http://localhost:5173`
 | `npm run format` | Formata o código |
 | `npm run format:check` | Verifica se o código está formatado |
 | `npm run lint` | Verifica problemas no código |
+| `npm run test` | Executa os testes |
+
+## Testes
+
+O projeto usa [Vitest](https://vitest.dev/) e [Testing Library](https://testing-library.com/react) para os testes.
+
+1. execute os testes:
+
+```bash
+npm run test
+```
 
 ## Autor
 
