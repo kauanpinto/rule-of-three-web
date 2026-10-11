@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-background: rgb(15, 8, 24);
+  --color-foreground: rgb(255, 255, 255);
+
+  --color-card: rgb(34, 16, 58);
+  --color-card-foreground: rgb(255, 255, 255);
+
+  --color-primary: rgb(58, 0, 110);
+  --color-primary-foreground: rgb(255, 255, 255);
+
+  --color-secondary: rgb(49, 0, 93);
+  --color-secondary-foreground: rgb(255, 255, 255);
+
+  --color-accent: rgb(201, 196, 245);
+  --color-accent-foreground: rgb(28, 15, 51);
+
+  --color-muted: rgba(255, 255, 255, 0.08);
+  --color-muted-foreground: rgb(169, 155, 209);
+
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-ring: rgb(201, 196, 245);
+
+  --color-success: rgb(0, 168, 47);
+  --color-success-foreground: rgb(255, 255, 255);
+
+  --color-warning: rgb(255, 220, 51);
+  --color-warning-foreground: rgb(0, 0, 0);
+
+  --color-destructive: rgb(255, 41, 49);
+  --color-destructive-foreground: rgb(255, 255, 255);
+
+  --color-chart-1: rgb(39, 83, 255);
+  --color-chart-2: rgb(255, 140, 16);
+  --color-chart-3: rgb(0, 183, 83);
+
+  --font-sans: 'Sora', sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}

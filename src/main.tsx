@@ -4,6 +4,6 @@ import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <h1>Rule of Three</h1>
+    <h1 className="text-center text-lg">Rule of Three</h1>
   </StrictMode>,
 );
